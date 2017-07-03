@@ -2,10 +2,15 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+#include <string>
+using namespace std;
 
 int main()
 {
+    string name1 = "Captain"; 
+    string name2 = "Code";
+	string result = name1.append(" ").append(name2);
+    cout << result;
     return 0;
 }
-
