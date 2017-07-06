@@ -29,5 +29,41 @@ int main()
 	ready = !ready;
 	
 	cout << boolalpha << savvy << "\n" << ready << "\n";
+
+	// chap4 conditions
+	int limit = 45;
+	int baggage = 40;
+
+	if (baggage > limit)
+	{
+		cout << "Your baggage is over the limit. ";
+	}
+	else if (baggage == limit)
+	{
+		cout << "Your baggage is just good." << "\n";
+	}
+	else
+	{
+		cout << "You can carry this." << "\n";
+	}
+
+	// chap5 arrays
+	string languages[5][2];
+	languages[0][0] = "C++";
+	languages[0][1] = "Ongoing";
+
+	languages[1][0] = "C#";
+	languages[1][1] = "Done";
+
+	languages[2][0] = "Ruby";
+	languages[2][1] = "Done";
+
+	languages[3][0] = "Java";
+	languages[3][1] = "Done";
+
+	languages[4][0] = "Python";
+	languages[4][1] = "Done";
+
+	cout << "The learning of " << languages[0][0] << " is " << languages[0][1] << "\n";
 	return 0;
 }
