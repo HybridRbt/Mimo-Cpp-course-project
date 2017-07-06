@@ -90,6 +90,18 @@ int main()
 	languagesArrayPtr++;
 	cout << *languagesArrayPtr << "\n";
 
+	// chap8 loops
+	string names[3] = { "Sasha", "Finn", "Seth" };
+
+	int i = 0;
+	int length = sizeof(names) / sizeof(names[0]);
+	
+	while (i < length)
+	{
+		cout << names[i] << "\n";
+		i++;
+	}
+
 	return 0;
 }
 
