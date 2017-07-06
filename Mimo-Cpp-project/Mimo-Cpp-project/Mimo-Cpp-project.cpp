@@ -76,7 +76,8 @@ int main()
 
 	int startIndex = message.find("halfway");
 
-	cout << "The index for halfway is: " << startIndex;
+	cout << "The index for halfway is: " << startIndex << "\n";
+
 	
 	return 0;
 }
