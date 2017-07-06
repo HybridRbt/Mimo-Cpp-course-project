@@ -78,7 +78,18 @@ int main()
 
 	cout << "The index for halfway is: " << startIndex << "\n";
 
+	// chap7 pointers
+	string languagesArray[3] = { "Ruby", "C++", "Python" };
 	
+	string *languagesArrayPtr = languagesArray;
+	cout << *languagesArrayPtr << "\n";
+
+	languagesArrayPtr++;
+	cout << *languagesArrayPtr << "\n";
+	
+	languagesArrayPtr++;
+	cout << *languagesArrayPtr << "\n";
+
 	return 0;
 }
 
