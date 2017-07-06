@@ -69,7 +69,7 @@ int main()
 
 	cout << "The learning of " << languages[0][0] << " is " << languages[0][1] << "\n";
 
-	// strings
+	// chap6 strings
 	string header = "This is about halfway. ";
 	string body = "This is the body";
 	string message = header + "\n" + body;
