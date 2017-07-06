@@ -29,5 +29,15 @@ int main()
 	ready = !ready;
 	
 	cout << boolalpha << savvy << "\n" << ready << "\n";
+
+	// strings
+	string header = "This is about halfway. ";
+	string body = "This is the body";
+	string message = header + "\n" + body;
+
+	int startIndex = message.find("halfway");
+
+	cout << "The index for halfway is: " << startIndex;
+	
 	return 0;
 }
