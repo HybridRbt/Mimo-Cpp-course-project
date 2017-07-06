@@ -111,6 +111,9 @@ int main()
 		i++;
 	}
 
+	// chap9 functions
+	cout << timeSpent("C++", 5);
+
 	return 0;
 }
 
