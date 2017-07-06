@@ -6,6 +6,15 @@
 
 using namespace std;
 
+// chap9 functions
+string timeSpent(string lang, int hours)
+{
+	string result = "You have spent ";
+	result += to_string(hours);
+	result += " hours on " + lang + ".\n";
+	return result;
+}
+
 int main()
 {
 	// chap1
