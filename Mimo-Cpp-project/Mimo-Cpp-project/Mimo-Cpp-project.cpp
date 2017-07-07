@@ -135,6 +135,23 @@ int main()
 	// chap10 class
 	App app("app name");
 	cout << app.getName() << "\n";
+
+	// chap11 I/O
+	string favLang;
+	string favTopic;
+
+	cout << "What's your fav programming language?";
+	cin >> favLang;
+
+	cout << "What's your fav programming topic?";
+	cin >> favTopic;
+
+	cout << "Your responce: \n";
+	cout << "Your fav language is: " << favLang;
+	cout << ". And your fav topic is: " << favTopic << ".\n";
+
 	return 0;
 }
+
+
 
