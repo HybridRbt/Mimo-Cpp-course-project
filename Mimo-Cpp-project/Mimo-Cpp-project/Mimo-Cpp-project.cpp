@@ -6,6 +6,24 @@
 
 using namespace std;
 
+// chap10 class
+class App
+{
+public:
+	App(string name)
+	{
+		_name = name;
+	}
+
+	string getName()
+	{
+		return _name;
+	}
+
+private:
+	string _name;
+};
+
 // chap9 functions
 string timeSpent(string lang, int hours)
 {
@@ -114,6 +132,9 @@ int main()
 	// chap9 functions
 	cout << timeSpent("C++", 5);
 
+	// chap10 class
+	App app("app name");
+	cout << app.getName() << "\n";
 	return 0;
 }
 
